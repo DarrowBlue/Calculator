@@ -16,9 +16,13 @@ while True:
 
 	if operation == "Add":
 		print("result is", calculator.add(first_number, second_number))
+		print()
 	elif operation == "Sub":
 		print("result is", calculator.subtract(first_number, second_number))
+		print()
 	elif operation == "Mul":
 		print("result is", calculator.multiply(first_number, second_number))
+		print()
 	elif operation == "Div":
 		print("result is", calculator.divide(first_number, second_number))
+		print()
