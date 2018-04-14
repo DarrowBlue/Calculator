@@ -8,17 +8,17 @@ while True:
 	print("'Mul' for Multiply,  'Div' for Divide.")
 	print("Type 'quit' to exit")
 	operation = input("Please type the operation you would like: ")
+	if operation == "quit":
+		break
 	first_number = int(input("Please enter the first number: "))
 	second_number = int(input("Please enter the second number: "))
 	
 
 	if operation == "Add":
-		print(calculator.add(first_number, second_number))
+		print("result is", calculator.add(first_number, second_number))
 	elif operation == "Sub":
-		print(calculator.subtract(first_number, second_number))
+		print("result is", calculator.subtract(first_number, second_number))
 	elif operation == "Mul":
-		print(calculator.multiply(first_number, second_number))
+		print("result is", calculator.multiply(first_number, second_number))
 	elif operation == "Div":
-		print(calculator.divide(first_number, second_number))
-	elif operation == "quit":
-		break
+		print("result is", calculator.divide(first_number, second_number))
